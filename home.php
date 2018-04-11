@@ -137,7 +137,7 @@
         </nav>
   </div>
 <div class="row">
-  
+
 <!--NAVIGATION BAR-->
 <?php include_once('include/inc_navigation.php'); ?>
 <!--END OF NAVIGATION BAR-->

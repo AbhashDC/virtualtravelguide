@@ -1,6 +1,6 @@
 
 <!--FOOTER-->
-  <div class="row">
+
     <div class="footer-home col-md-12 text-center ">
       <div class="row">
         <div class="col-md-4 footerlogo" >
@@ -49,5 +49,5 @@
         </div>
       </div>
     </div>
-  </div>
+
 <!--FOOTER END-->

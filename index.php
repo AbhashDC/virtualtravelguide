@@ -9,8 +9,9 @@ include_once('include/inc_header-home.php');
       include_once('home.php');
      ?>
 
-
-    <?php include_once('include/inc_footer.php'); ?>
+     <div class="row">
+      <?php include_once('include/inc_footer.php'); ?>
+    </div>
 
 </div>
 
