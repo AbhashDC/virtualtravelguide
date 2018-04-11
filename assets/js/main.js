@@ -1,22 +1,19 @@
-(function ($) {
-"use strict";
-
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
+$(document).ready(function () {
+    $('#myCarousel').carousel({
+        interval: 10000
+    })
+    $('.fdi-Carousel .item').each(function () {
+        var next = $(this).next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
         }
-    }
-})
+        next.children(':first-child').clone().appendTo($(this));
 
-
-})(jQuery);
+        if (next.next().length > 0) {
+            next.next().children(':first-child').clone().appendTo($(this));
+        }
+        else {
+            $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+        }
+    });
+});

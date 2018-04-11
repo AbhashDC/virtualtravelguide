@@ -1,35 +1,7 @@
-<!--
-Author: Sandesh Jonchhe
-Author URL: http://www.sjonchhe.com.np
--->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Virtual Travel guide</title>
+<?php
+include_once('include/inc_header-home.php');
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta charset="utf-8">
-<meta name="keywords" content="Online report system" />
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-
-
-<!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   <!-- Include all compiled plugins (below), or include individual files as needed -->
-   <script src="assets/js/bootstrap.min.js"></script>
-
-   <script src="assets/date/datedropper.js"></script>
-  <script src="assets/date/jquery.min.js"></script>
-  <link href="assets/date/datedropper.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
-  <script src="assets/js/main.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
-
-</head>
-<body>
+ ?>
 	<div class="container-fluid">
 
 
@@ -182,7 +154,7 @@ Author URL: http://www.sjonchhe.com.np
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse " id="navbarNav">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -199,9 +171,16 @@ Author URL: http://www.sjonchhe.com.np
               <li class="nav-item">
                 <a class="nav-link" href="#">Shop</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Transport</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" href="#">Transport</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
               </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
               </li>
@@ -211,6 +190,8 @@ Author URL: http://www.sjonchhe.com.np
           </nav>
           <!--END OF NAVIGATION BAR-->
     </div>
+
+
     <div class="row">
       <div id="fh5co-destination">
           <div class="tour-fluid">
@@ -303,19 +284,126 @@ Author URL: http://www.sjonchhe.com.np
           </div>
     </div>
 
+<div class="row" >
+  <div id="fh5co-tours col-md-12" class="hotpackage" >
+    <div class="row">
+					<div class="col-md-12  text-center package-heading animate-box">
+						<span>Hot Packages</span>
 
-    </div>
+					</div>
+				</div>
+				<div class="row packagelist" >
+					<div class="col-md-3 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/pa1.jpg" class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<span class="package-title">Mardi Base Camp Trek</span>
+								<span>8 Days 7 Nights </span>
+								<section class="price badge badge-pill badge-primary" >Rs.10000</section><br>
+								<a class="btn btn-default btn-outline" href="#">Book Now </a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/pa2.jpg"  class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<span class="package-title">Ghandruk Poonhill Trek</span>
+								<span>6 Days 5 Nights </span>
+									<section class="price badge badge-pill badge-primary" >Rs.9000</section><br>
+								<a class="btn btn-default btn-outline" href="#">Book Now </a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn" >
+						<div href="#"><img src="images/pa3.jpg"  class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<span class="package-title">Rafting at Bhote Koshi River</span>
+								<span>1 Day</span>
+									<section class="price badge badge-pill badge-primary" >Rs.2500</section><br>
+								<a class="btn btn-default btn-outline" href="#">Book Now</a>
+							</div>
+						</div>
+					</div>
+          <div class="col-md-3 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/pa4.jpg"  class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<span class="package-title">Wild Adventure in Bardiya National</span>
+								<span>4 Days 3 Nights</span>
+									<section class="price badge badge-pill badge-primary" >Rs.8000</section><br>
+								<a class="btn btn-default btn-outline" href="#">Book Now </a>
+							</div>
+						</div>
+					</div>
+          <div class="col-md-3 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+            <div href="#"><img src="images/pa5.jpg"  class="img-responsive">
+              <div class="desc">
+                <span></span>
+                <span class="package-title">Pokhara Tour Economy </span>
+                <span>3 Days 2 Nights</span>
+                	<section class="price badge badge-pill badge-primary" >Rs.5000</section><br>
+                <a class="btn btn-default btn-outline" href="#">Book Now </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+            <div href="#"><img src="images/pa6.jpg"  class="img-responsive">
+              <div class="desc">
+                <span></span>
+                <span class="package-title">Chitwan Tour Economy</span>
+                <span>3 Days 3 Nights</span>
+              	<section class="price badge badge-pill badge-primary" >Rs.5000</section><br>
+                <a class="btn btn-default btn-outline" href="#">Book Now </a>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-md-3 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+            <div href="#"><img src="images/pa7.jpg"  class="img-responsive">
+              <div class="desc">
+                <span></span>
+                <span class="package-title">Upper Mustang Trek</span>
+                <span>5 Days 4 Nights </span>
+                	<section class="price badge badge-pill badge-primary" >Rs.11000</section><br>
+                <a class="btn btn-default btn-outline" href="#">Book Now </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/pa8.jpg"  class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<span class="package-title">Chandragiri</span>
+								<span>1 Day</span>
+									<section class="price badge badge-pill badge-primary" >Rs.1500</section><br>
+								<a class="btn btn-default btn-outline" href="#">Book Now </a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center animate-box">
+						<p><a class="btn btn-warning btn-lg btn-outline-light" href="#">See All Offers </a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+<?php include_once('include/inc_footer.php'); ?>
+
+</div>
+
+
+  <script type="text/javascript" src="assets/js/main.js"></script>
   <!-- dateDropper lib -->
   <script src="assets/date/datedropper.js"></script>
   <script>
 $('#datep').dateDropper();
 </script>
-   <script src="assets/js/owl.carousel.min.js"></script>
-   <script src="assets/js/main.js"></script>
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <script src="assets/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>
