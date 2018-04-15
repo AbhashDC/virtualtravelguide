@@ -54,6 +54,12 @@ Author URL: http://www.sjonchhe.com.np
 	<link rel="stylesheet" type="text/css" href="assets/css/util.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/ecommerce.css">
 
+  <!-- Date Picker -->
+  	<link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
+  	<!-- Flaticons  -->
+  	<link rel="stylesheet" href="assets/fonts/flaticon/font/flaticon.css">
+    <!-- Magnific Popup -->
+    	<link rel="stylesheet" href="assets/css/magnific-popup.css">
 
 
   <!-- Bootstrap -->
@@ -62,7 +68,6 @@ Author URL: http://www.sjonchhe.com.np
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
      <!-- Include all compiled plugins (below), or include individual files as needed -->
      <script src="assets/js/bootstrap.min.js"></script>
-
 
 </head>
 <body>

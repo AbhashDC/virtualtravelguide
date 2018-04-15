@@ -92,7 +92,7 @@
               </a>
             </li>
             <li class="nav4">
-              <a href="#" class="rollover">
+              <a href="hotel.php" class="rollover">
               <div class="cube">
                 <div class="front">
                   <img src="images/ic4.png" alt="" class="img_icon">
@@ -336,7 +336,7 @@
       </div>
     </div>
     <div class="col-md-12 text-center animate-box">
-      <p><a class="btn btn-warning btn-lg btn-outline-light" href="#">See All Offers </a></p>
+      <p><a class="btn btn-lg btn-outline-primary" href="#">See All Offers </a></p>
     </div>
   </div>
 </div>

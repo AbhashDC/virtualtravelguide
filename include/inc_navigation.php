@@ -1,6 +1,11 @@
 <!--MAIN NAVIGATION BAR-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary col-md-12 ">
+  <div class="box beta">
+                   <div class="ribbon"><span>Design only</span></div>
+   </div>
   <a class="navbar-brand ml-4" href="index.php">
+
+
      <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
      Virtual Travel Guide
     </a>
@@ -19,7 +24,7 @@
           <a class="nav-link" href="#">Packages</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Hotels</a>
+          <a class="nav-link" href="hotel.php">Hotels</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="ecommerce.php">Shop</a>
