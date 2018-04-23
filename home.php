@@ -64,7 +64,7 @@
               </a>
             </li>
             <li class="nav2">
-              <a href="#" class="rollover">
+              <a href="vehiclerental.php" class="rollover">
               <div class="cube">
                 <div class="front">
                   <img src="images/ic6.png" alt="" class="img_icon">

@@ -1,5 +1,5 @@
 <!--MAIN NAVIGATION BAR-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary col-md-12 ">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary col-md-12 " >
   <div class="box beta">
                    <div class="ribbon"><span>Design only</span></div>
    </div>
@@ -33,7 +33,7 @@
           <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" href="#">Transport</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="busbooking.php">Bus Booking</a>
-              <a class="dropdown-item" href="#">Vehicle Rental</a>
+              <a class="dropdown-item" href="vehiclerental.php">Vehicle Rental</a>
 
             </div>
         </li>
