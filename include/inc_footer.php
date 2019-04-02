@@ -9,7 +9,7 @@
         </div>
           <div class="footerexplore col-md-2 text-center ">
             <ul><span class="footertitle">Explore</span>
-              <li><a href="#">Packages</a></li>
+              <li><a href="package.php?b=package">Packages</a></li>
              <li><a href="#">Vehicle Rental</a></li>
              <li><a href="#">Bus Booking</a></li>
              <li><a href="#">Hotel Booking</a></li>
@@ -18,11 +18,11 @@
           </div>
           <div class="footersupport col-md-2 text-center ">
             <ul><span class="footertitle">Support</span>
-              <li><a href="#">About Us</a></li>
-             <li><a href="#">FAQ</a></li>
+              <li><a href="faboutus.php">About Us</a></li>
+             <li><a href="faq.php">FAQ</a></li>
              <li><a href="#">Terms & Condition</a></li>
-             <li><a href="#">Business Advantage</a></li>
-             <li><a href="#">Cpanel</a></li>
+             <li><a href="vregister.php">Become a Vendor</a></li>
+             
            </ul>
           </div>
           <div class="footerright col-md-4 text-center">

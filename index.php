@@ -1,6 +1,10 @@
 <?php
 include_once('include/inc_header-home.php');
-
+@ $mes=$_GET['mes'];
+if($mes=='registered')
+{
+  echo "<script>alert('Successfully registered!You can now login ')</script>";
+}
  ?>
 	<div class="container-fluid">
 

@@ -1,10 +1,10 @@
 <?php include_once('include/inc_header-home.php'); ?>
 <div class="container-fluid">
-  <div class="row busbookingnav">
+  <div class="row justify-content-md-center busbookingnav">
     <?php include_once('include/inc_navigation.php'); ?>
   </div>
   <div class="row">
-    <div class="coverbusbooking col-md-12" style="background:url('images/b4.jpg');background-attachment:fixed;  background-size:cover;">
+    <div class="coverbusbooking col-md-12" style="background:url('images/b5.jpg');background-attachment:fixed;  background-size:cover;">
       <!--SEARCH PORTION-->
         <div class="row justify-content-md-center offset-md-1" >
               <form class="form-inline col-md-10 "  >
@@ -47,7 +47,7 @@
 
 						<div class="feature-left ">
               <div class="row justify-content-md-center">
-								<img src="images/wifi.svg" class="img-responsive">
+								<img src="images/wifib.png" class="img-responsive">
               </div>
 							<div class="feature-copy ">
 								<h3>Free Wi-Fi </h3>
@@ -61,7 +61,7 @@
 					<div class="col-md-4 animate-box busfeature">
 						<div class="feature-left">
               <div class="row justify-content-md-center">
-								<img src="images/reclining.svg" class="img-responsive">
+								<img src="images/recliningb.png" class="img-responsive">
               </div>
 							<div class="feature-copy">
 								<h3>Reclining Seat</h3>
@@ -73,7 +73,7 @@
 					<div class="col-md-4 animate-box busfeature ">
 						<div class="feature-left">
               <div class="row justify-content-md-center">
-                <img src="images/storage.svg" class="img-responsive">
+                <img src="images/storageb.png" class="img-responsive">
               </div>
 							<div class="feature-copy">
 								<h3>Overhead Storage</h3>
@@ -88,7 +88,7 @@
 
 						<div class="feature-left">.lfmbkfdvm.lf
               <div class="row justify-content-md-center">
-                <img src="images/legroom.svg" class="img-responsive">
+                <img src="images/legroomb.png" class="img-responsive">
               </div>
 							<div class="feature-copy">
 								<h3>Extra Leg Room</h3>
@@ -102,7 +102,7 @@
 					<div class="col-md-4 animate-box busfeature">
 						<div class="feature-left">
               <div class="row justify-content-md-center">
-                <img src="images/isle.svg" class="img-responsive">
+                <img src="images/isleb.png" class="img-responsive">
               </div>
 							<div class="feature-copy">
 								<h3>No middle Seat</h3>
@@ -115,7 +115,7 @@
 					<div class="col-md-4 animate-box busfeature">
 						<div class="feature-left">
               <div class="row justify-content-md-center">
-                <img src="images/ac3.png" class="img-responsive">
+                <img src="images/ac3b.png" class="img-responsive">
               </div>
 							<div class="feature-copy">
 								<h3>Air Conditioned</h3>
